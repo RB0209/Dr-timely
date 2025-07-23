@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+  color: #1e3c72;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+}
+
+.hero-logo img {
+  width: 180px;
+  transition: transform 0.3s ease;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1e3c72;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.cta {
+  display: inline-block;
+  background: linear-gradient(45deg, #1e3c72, #2a5298);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  opacity: 0.9;
+}
