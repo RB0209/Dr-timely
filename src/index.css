@@ -15,6 +15,29 @@ body {
   gap: 40px;
 }
 
+/* Mobile first (stacked layout) */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-logo img {
+    width: 140px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
 .hero-logo img {
   width: 180px;
   transition: transform 0.3s ease;
@@ -28,18 +51,5 @@ body {
 
 .hero-text p {
   font-size: 1rem;
-  margin-bottom: 20px;
   line-height: 1.6;
-}
-
-.cta {
-  display: inline-block;
-  background: linear-gradient(45deg, #1e3c72, #2a5298);
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
 }
