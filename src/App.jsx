@@ -24,7 +24,6 @@ export default function App() {
           CARE Foundation works towards social awareness, education, and women
           empowerment with innovative programs and community engagement.
         </p>
-        </motion.a>
       </motion.div>
     </section>
   );
